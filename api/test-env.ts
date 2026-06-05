@@ -27,6 +27,9 @@ export default async function handler(
     smtpPassword: process.env.SMTP_PASSWORD ? 'SET (value hidden)' : 'MISSING',
     contactEmail: process.env.CONTACT_EMAIL ? 'SET' : 'MISSING',
     fromEmail: process.env.FROM_EMAIL ? 'SET' : 'MISSING',
+    supabaseUrl: process.env.VITE_SUPABASE_URL ? `SET (length: ${process.env.VITE_SUPABASE_URL.length}, contains dots: ${process.env.VITE_SUPABASE_URL.includes('...')})` : 'MISSING',
+    supabaseAnonKey: process.env.VITE_SUPABASE_ANON_KEY ? `SET (length: ${process.env.VITE_SUPABASE_ANON_KEY.length}, contains dots: ${process.env.VITE_SUPABASE_ANON_KEY.includes('...')})` : 'MISSING',
+    supabaseServiceKey: process.env.SUPABASE_SERVICE_ROLE_KEY ? `SET (length: ${process.env.SUPABASE_SERVICE_ROLE_KEY.length}, contains dots: ${process.env.SUPABASE_SERVICE_ROLE_KEY.includes('...')})` : 'MISSING',
     smtpRelatedKeys: smtpRelatedKeys.length > 0 ? smtpRelatedKeys : 'none found',
     totalEnvKeys: allEnvKeys.length,
     sampleEnvKeys: allEnvKeys.slice(0, 20), // First 20 env keys to see what's available
@@ -41,4 +44,5 @@ export default async function handler(
     allEnvKeys: allEnvKeys // Show ALL keys to debug
   });
 }
+
 
