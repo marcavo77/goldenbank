@@ -26,7 +26,7 @@ export const Auth: React.FC = () => {
     phone: '',
     address: '',
     postalCode: '',
-    country: COUNTRIES.find(c => c.code === 'PT') || COUNTRIES[0],
+    country: COUNTRIES.find(c => c.code === 'IT') || COUNTRIES[0],
     accountType: 'CURRENT',
     avatarUrl: ''
   });
