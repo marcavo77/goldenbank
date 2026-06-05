@@ -104,7 +104,7 @@ const StockMarketWidget: React.FC = () => {
             <div className="flex justify-between items-start z-10">
                 <div>
                 <div className="flex items-center gap-2">
-                    <div className="w-6 h-6 md:w-8 md:h-8 bg-teal-400 rounded flex items-center justify-center font-bold text-slate-900 text-xs md:text-base shadow-lg shadow-teal-400/20">N</div>
+                    <div className="w-6 h-6 md:w-8 md:h-8 bg-amber-500 rounded flex items-center justify-center font-bold text-slate-900 text-xs md:text-base shadow-lg shadow-amber-500/20">G</div>
                     <h3 className="text-lg md:text-2xl font-bold text-white">Golden Bank Corp.</h3>
                     <span className="text-gray-400 font-mono text-xs md:text-sm">($NVB)</span>
                 </div>
@@ -375,7 +375,7 @@ const SavingsGlobalRankingWidget: React.FC = () => {
                                     
                                     <div className="w-6 h-6 md:w-8 md:h-8 rounded-full bg-white p-0.5 shrink-0 overflow-hidden">
                                         {isNova ? (
-                                            <div className="w-full h-full bg-teal-400 flex items-center justify-center text-white font-bold text-[10px]">NB</div>
+                                            <div className="w-full h-full bg-amber-500 flex items-center justify-center text-white font-bold text-[10px]">G</div>
                                         ) : (
                                             <img 
                                                 src={`https://logo.clearbit.com/${company.logoDomain}`} 

@@ -592,7 +592,7 @@ const ChatWidget: React.FC = () => {
         {/* Welcome Message */}
         <div className="flex justify-start">
              <div className="flex items-end gap-2 max-w-[85%]">
-                <div className="w-6 h-6 rounded-full bg-teal-400 flex items-center justify-center shrink-0 text-white text-xs font-bold shadow-lg">NB</div>
+                <div className="w-6 h-6 rounded-full bg-amber-500 flex items-center justify-center shrink-0 text-white text-xs font-bold shadow-lg">G</div>
                 <div className="bg-slate-700 text-gray-200 rounded-2xl rounded-bl-none p-3 text-sm shadow-md">
                    {t('chat.welcome')} {currentUser.name}, {t('chat.welcomeMessage')}
                 </div>
@@ -618,7 +618,7 @@ const ChatWidget: React.FC = () => {
                     )}
                     <div className={`flex ${msg.senderId === currentUser.id ? 'justify-end' : 'justify-start'}`}>
                         {msg.senderId !== currentUser.id && (
-                             <div className="w-6 h-6 rounded-full bg-teal-400 flex items-center justify-center shrink-0 text-white text-xs font-bold shadow-lg mr-2 self-end">NB</div>
+                             <div className="w-6 h-6 rounded-full bg-amber-500 flex items-center justify-center shrink-0 text-white text-xs font-bold shadow-lg mr-2 self-end">G</div>
                         )}
                         <div className={`max-w-[80%] rounded-2xl p-3 text-sm shadow-md ${
                             msg.senderId === currentUser.id 
@@ -646,7 +646,7 @@ const ChatWidget: React.FC = () => {
         {/* Admin Typing Indicator Bubble */}
         {isAdminTyping && adminChatSettings.showTypingToUser && (
              <div className="flex justify-start animate-fade-in-up">
-                 <div className="w-6 h-6 rounded-full bg-teal-400 flex items-center justify-center shrink-0 text-white text-xs font-bold shadow-lg mr-2 self-end">NB</div>
+                 <div className="w-6 h-6 rounded-full bg-amber-500 flex items-center justify-center shrink-0 text-white text-xs font-bold shadow-lg mr-2 self-end">G</div>
                  <TypingIndicator />
              </div>
         )}

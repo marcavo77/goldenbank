@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" width="180" height="180">
-  <rect width="180" height="180" fill="#2563eb" rx="40"/>
-  <text x="90" y="135" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="white" text-anchor="middle">A</text>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe066" />
+      <stop offset="50%" stop-color="#f5b041" />
+      <stop offset="100%" stop-color="#ca8a04" />
+    </linearGradient>
+  </defs>
+  <rect width="180" height="180" fill="url(#goldGrad)" rx="40"/>
+  <text x="90" y="135" font-family="Arial, sans-serif" font-size="120" font-weight="bold" fill="white" text-anchor="middle">G</text>
 </svg>
-
