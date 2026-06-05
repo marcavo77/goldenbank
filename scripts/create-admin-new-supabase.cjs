@@ -3,10 +3,10 @@
  * NOUVEAU PROJET SUPABASE - Mai 2026
  */
 
-const SUPABASE_URL = 'https://ctuwgcukaiuwfgryxaoh.supabase.co';
-const SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN0dXdnY3VrYWl1d2Zncnl4YW9oIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc3Nzk2MTUxMSwiZXhwIjoyMDkzNTM3NTExfQ.kpZhkaeKF_zANrn0EjFkrKs7QMK81SqwivtX_FSU_dA';
+const SUPABASE_URL = 'https://jwihwjwjbdeiwgaldycw.supabase.co';
+const SUPABASE_SERVICE_ROLE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp3aWh3andqYmRlaXdnYWxkeWN3Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc4MDQ3MTg2MSwiZXhwIjoyMDk2MDQ3ODYxfQ.GpRcd5XebsytZEJxXLCvCHPeBIDh2o1V5_jpGo99rcQ';
 
-const ADMIN_EMAIL = 'admin@azurbank.company';
+const ADMIN_EMAIL = 'admin@goldenbank.company';
 const ADMIN_PASSWORD = '0123456789';
 const ADMIN_NAME = 'Super Administrator';
 
