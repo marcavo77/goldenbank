@@ -679,7 +679,7 @@ const AdminDashboard: React.FC = () => {
                           <div className="flex justify-center gap-1 md:gap-2">
                              <button
                                 onClick={() => openUserDetails(user)}
-                                className="p-2 bg-teal-400/20 text-teal-300 rounded-lg hover:bg-teal-400 hover:text-white transition-all"
+                                className="p-2 bg-blue-500/20 text-blue-400 rounded-lg hover:bg-blue-500 hover:text-white transition-all"
                                 title={t('admin.viewDetails')}
                             >
                                 <Info className="h-4 w-4 md:h-5 md:w-5" />
